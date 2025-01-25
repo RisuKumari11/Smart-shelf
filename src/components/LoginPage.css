@@ -1,0 +1,77 @@
+/* Overall container for the login page */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1d0637;
+    color: white;
+    text-align: left;  /* Aligns all text centrally */
+}
+
+/* Form container to hold input fields and button */
+.form-container {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center;
+    align-items: center;    /* Centers elements horizontally */
+    gap: 20px;              /* Adds space between form elements */
+    width: 100%;            /* Full width of the container */
+    max-width: 400px;       /* Set a max-width for better control */
+}
+
+/* Heading styling */
+.login-heading {
+    text-align: center; /* Centers the text */
+    font-size: 2.5em;
+    margin-bottom: 20px; /* Adds space below the heading */
+}
+
+/* Wrapper for each input field and its label */
+.input-group {
+    display: flex;
+    flex-direction: column; /* Arrange label and input vertically */
+    gap: 5px;               /* Adds space between label and input */
+    width: 100%;            /* Ensure the input takes full width */
+}
+
+/* Label styling */
+.input-label {
+    font-size: 1.1em;
+    color: white;
+}
+
+/* Styling for the input fields */
+.input-field {
+    padding: 10px;
+    width: 100%; /* Ensure input fields take up the full width of their container */
+    border-radius: 5px;
+    border: 1px solid #cac8c8;
+    font-size: 1em;
+}
+
+/* Button styling */
+.login-button {
+    padding: 10px;
+    width: 40%; /* Button takes full width */
+    background-color: #027cfe;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+/* Error message styling */
+.error-message {
+    color: #ff4c4c;
+    font-size: 1.1em;
+    text-align: center;
+}

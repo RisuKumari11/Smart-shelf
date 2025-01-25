@@ -1,0 +1,67 @@
+/* Main container */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(120deg, #6a4c9c, #9f7bc4);
+    padding: 20px;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Loading Message */
+.loading-message {
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    animation: pulse 1.5s infinite;
+}
+
+/* Pulsing effect for loading text */
+@keyframes pulse {
+    0%, 100% {
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.profile-content h1 {
+    color: #4d2291;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.profile-content p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.logout-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #6a4c9c; /* Lavender/Purple */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #4e3380; /* Darker Purple */
+}

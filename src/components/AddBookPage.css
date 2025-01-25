@@ -1,0 +1,76 @@
+/* Container for the Add Book page */
+.add-book-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #6d65de;
+    color: white;
+    text-align: left;
+}
+
+/* Heading styling */
+.add-book-heading {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Form container to hold input fields and button */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Wrapper for each input field and its label */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+/* Label styling */
+.input-label {
+    font-size: 1.1em;
+}
+
+/* Input field styling */
+.input-field {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #cac8c8;
+    font-size: 1em;
+}
+
+/* Add Book button styling */
+.add-book-button {
+    padding: 10px;
+    width: 80%;
+    background-color: #4a444c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-book-button:hover {
+    background-color: #BBBDF6;
+    color: #2d272f;
+}
+
+/* Add Success Message styling */
+.success-message {
+    color: rgb(109, 255, 109);
+    font-size: 1em;
+    text-align: center;
+    margin-top: 10px;
+}
+

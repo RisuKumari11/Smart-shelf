@@ -1,0 +1,107 @@
+/* Library Page Styles */
+.library-container {
+    background-color: #BBBDF6; /* Set the background color to #BBBDF6 */
+    min-height: 100vh; /* Ensure the page takes up the full height */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #333; /* Text color */
+}
+
+/* Library Page Header */
+.library-header {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #333; /* Dark color for the header text */
+    margin-bottom: 20px;
+}
+
+/* Books List Styling */
+.books-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 100%;
+}
+
+/* Individual Book Item Styling */
+.book-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0E4FF; /* Lighter background for each book item */
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: column; /* Ensure the content is stacked vertically */
+    gap: 10px; /* Space between elements */
+}
+
+/* Book Title Styling */
+.book-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Book Author Styling */
+.book-author {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Mark as Read Button Styling */
+.mark-read-btn {
+    background-color: #6a6b88; /* Default color */
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.mark-read-btn.read {
+    background-color: #4CAF50; /* Green color for read books */
+}
+
+/* Change button color on hover */
+.mark-read-btn:hover {
+    background-color: #402357;
+}
+
+/* Add Book Button Styling */
+.add-book-btn {
+    padding: 10px;
+    background-color: #7236b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.add-book-btn:hover {
+    background-color: #402357;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}

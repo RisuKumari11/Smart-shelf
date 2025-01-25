@@ -1,0 +1,88 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 40px;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+}
+
+/* Navbar logo styling */
+.navbar-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Navbar links styling */
+.navbar-links {
+    display: flex;
+    gap: 20px;
+}
+
+/* Link styling to look like underlined text */
+.nav-link {
+    color: white;
+    text-decoration: underline;
+    font-size: 1em;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #027cfe; 
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 100vh;
+    background-color: #9893DA;
+    color: white;
+    text-align: left;
+}
+
+.dashboard-heading {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center;
+    align-items: center;    /* Centers elements horizontally */
+    gap: 20px;              /* Adds space between form elements */
+    width: 100%;            /* Full width of the container */
+    max-width: 400px; 
+    font-size: 1.2em;
+}
+
+.stat-item {
+    background-color: #6a6b88;
+    padding: 8px;
+    border-radius: 7px;
+    text-align: left;
+    width: 200px;
+}
+
+.add-book-button1 {
+    padding: 10px;
+    width: 80%;
+    background-color: #7236b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-book-button1:hover {
+    background-color: #402357;
+    color: white;
+}

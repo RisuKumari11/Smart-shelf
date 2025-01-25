@@ -1,0 +1,30 @@
+/* AboutUs.css */
+.about-us-container {
+    background-color: #E6E6FA; /* Lavender background */
+    color: #4B0082; /* Dark purple text */
+    font-family: 'Arial', sans-serif;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(75, 0, 130, 0.2);
+}
+
+.about-info {
+    margin-top: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #663399; /* Medium purple */
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
